@@ -21,3 +21,7 @@ loginForm.addEventListener("submit", (e) => {
     }
   }
 });
+
+// struktur data Array 
+
+let arr = [1, 'satu', true, false, null]
