@@ -68,3 +68,8 @@ console.log(animals.slice(1, 5)); //output: 'ant', 'bison', 'camel', 'duck', 'el
 console.log(animals.slice(-2)); //output: 'duck', 'elephant'
 console.log(animals.slice(2, -1)); //output: 'duck', 'duck'
 console.log(animals.slice()); //output: 'ant', 'bison', 'camel', 'duck', 'elephant'
+
+//revers metode membalik urutan elemen dalam array
+const arr6 = ['one', 'two', 'there']
+const reversed = arr6.reverse();
+console.log(reversed, '<--- reversed'); //output: 'three', 'two' 'one'
