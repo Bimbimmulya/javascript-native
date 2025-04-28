@@ -35,3 +35,10 @@ const beast = ['ant', 'bison', 'camel', 'duck', 'bison'];
 console.log(beast.indexOf('bison')); //output: 1 -> karena mencari indexOf spesifik dengan string
 console.log(beast.indexOf('bison', 2)); // output: 4 -> karena mencari indexOf dengan paramater index 2
 console.log(beast.indexOf('giraffe')) // output: -1 -> karena tidak ditemukan maka indexOf mengambilakn -1
+
+//includes akan mereturn true apabila sebuah string yg di cari match jika tidak mereturn false
+const arr4 = [1, 2, 4];
+console.log(arr4.includes(2));//output: true 
+const pets = ['cat', 'dog', 'bat'];
+console.log(pets.includes('cat')); //output: true
+console.log(pets.includes('at')); //output: false
