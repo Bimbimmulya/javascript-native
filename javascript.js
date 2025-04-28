@@ -42,3 +42,12 @@ console.log(arr4.includes(2));//output: true
 const pets = ['cat', 'dog', 'bat'];
 console.log(pets.includes('cat')); //output: true
 console.log(pets.includes('at')); //output: false
+
+//sort mengurutkan elemen sebagai string dalam urutan abjad dan menaik.
+const months = ['March', 'Jan', 'Feb', 'Dec']
+months.sort();
+console.log(months); // output: Dec, Feb, Jan, March
+
+const arr5 = [1, 30, 4, 21, 100000];
+arr5.sort();
+console.log(arr5); //output: 1, 100000, 21, 30, 4
