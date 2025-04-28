@@ -73,3 +73,9 @@ console.log(animals.slice()); //output: 'ant', 'bison', 'camel', 'duck', 'elepha
 const arr6 = ['one', 'two', 'there']
 const reversed = arr6.reverse();
 console.log(reversed, '<--- reversed'); //output: 'three', 'two' 'one'
+
+//join metode mengembalikan array sebagai string
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const text = fruits.join(' '); // memberikan spaci
+const text1 = fruits.join(''); // return string whitout spaci (dafult using koma)
+console.log(text); //output: Banana Orange Apple Mango
