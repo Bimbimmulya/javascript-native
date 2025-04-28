@@ -25,7 +25,13 @@ loginForm.addEventListener('submit', (e) => {
 
 let arr = [1, 'satu', true, false, null];
 
+//concat
 const arr1 = ['a', 'b', 'c'];
 const arr2 = ['d', 'e', 'f']
-
 const arr3 = arr1.concat(arr2) // concat untuk menggabungkan nilai array
+
+//indexOf mencari nilai index dari string
+const beast = ['ant', 'bison', 'camel', 'duck', 'bison'];
+console.log(beast.indexOf('bison')); //output: 1 -> karena mencari indexOf spesifik dengan string
+console.log(beast.indexOf('bison', 2)); // output: 4 -> karena mencari indexOf dengan paramater index 2
+console.log(beast.indexOf('giraffe')) // output: -1 -> karena tidak ditemukan maka indexOf mengambilakn -1
