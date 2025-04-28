@@ -51,3 +51,11 @@ console.log(months); // output: Dec, Feb, Jan, March
 const arr5 = [1, 30, 4, 21, 100000];
 arr5.sort();
 console.log(arr5); //output: 1, 100000, 21, 30, 4
+
+//splice untuk memanipulasi/menggantikan nilai array
+const months2 = ['Jan', 'Marh', 'April', 'June'];
+months2.splice(1, 0, 'Feb'); //output: 'Jan', 'Feb', 'Marh', 'April', 'June' -> menambahkan nilai index dari index ke 1 tanpa mengganti/menghapus nilai index yg ada
+months2.splice(4, 1, 'May'); //output: 'Jan', 'Feb', 'Marh', 'April', 'May' -> menambahkan nilai dari index ke 4 dan menggantikan nilai index setelah index ke 4
+//paramater pertama di index berapa yg akan ditambahkan
+//parametr kedua index setelah paramater pertama yg akan dimanipulasi
+//paramater ketiga input nilai yg akan dimasukan
