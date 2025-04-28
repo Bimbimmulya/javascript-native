@@ -79,3 +79,9 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 const text = fruits.join(' '); // memberikan spaci
 const text1 = fruits.join(''); // return string whitout spaci (dafult using koma)
 console.log(text); //output: Banana Orange Apple Mango
+
+//variable const with array
+const color = ['red', 'yellow', 'pink'];
+color.push('blue');
+console.log(color); //output: 'red', 'yellow', 'pink', 'blue'
+//naming variable dengan const dapat diubah jika nilai datanya dibungkus dengan array. yg tidak bisa dirubah adalah type datanya, misal dari array ke object.
