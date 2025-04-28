@@ -59,3 +59,12 @@ months2.splice(4, 1, 'May'); //output: 'Jan', 'Feb', 'Marh', 'April', 'May' -> m
 //paramater pertama di index berapa yg akan ditambahkan
 //parametr kedua index setelah paramater pertama yg akan dimanipulasi
 //paramater ketiga input nilai yg akan dimasukan
+
+//slice menghapus element array. paramater pertama element start paramater kedua element end
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant']
+console.log(animals.splice(2)); //output: 'camel', 'duck', 'elephant'
+console.log(animals.slice(2, 4)); //output: 'camel', 'duck'
+console.log(animals.slice(1, 5)); //output: 'ant', 'bison', 'camel', 'duck', 'elephant' -> karaena index 5 tidak ada
+console.log(animals.slice(-2)); //output: 'duck', 'elephant'
+console.log(animals.slice(2, -1)); //output: 'duck', 'duck'
+console.log(animals.slice()); //output: 'ant', 'bison', 'camel', 'duck', 'elephant'
