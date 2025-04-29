@@ -85,3 +85,10 @@ const color = ['red', 'yellow', 'pink'];
 color.push('blue');
 console.log(color); //output: 'red', 'yellow', 'pink', 'blue'
 //naming variable dengan const dapat diubah jika nilai datanya dibungkus dengan array. yg tidak bisa dirubah adalah type datanya, misal dari array ke object.
+
+//for loop mendefinisikan blok kode yang dieksekusi selama kondisinya true.
+const car = ['crv', 'triton', 'pajero', 'rubicon']
+
+for(let i = 0; i < car.length; i++) {
+  console.log(car[i])
+}
