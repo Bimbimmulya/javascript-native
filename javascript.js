@@ -92,3 +92,13 @@ const car = ['crv', 'triton', 'pajero', 'rubicon']
 for(let i = 0; i < car.length; i++) {
   console.log(car[i])
 }
+
+//nested loop loop dalam akan selalu dijalankan ketika loop luar terpenuhi
+const answer = 'abcd'
+
+for (let i = 1; i <= 5; i++) {
+  console.log(`${i}. Pilihlah jawaban yg benar`)
+  for (let j = 0; j < answer.length; j++) {
+    console.log(`   ${answer[j]}`)
+  }
+}
